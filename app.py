@@ -6,6 +6,7 @@ import os
 app = Flask(__name__)
 
 # Initialize the detector (loads model on startup)
+# Updated 2026-03-13: Redeploying after suspension
 print("[NudeNet] Loading model...")
 detector = NudeDetector()
 print("[NudeNet] Model loaded successfully")
